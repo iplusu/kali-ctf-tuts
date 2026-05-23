@@ -3,7 +3,7 @@
 sudo apt-get -y update
 sudo apt-get -y install gdb emacs vim git zsh gdb-multiarch \
     python3 python3-pip python3-dev python3-setuptools python-is-python3 \
-    libssl-dev libffi-dev build-essential \
+    libssl-dev libffi-dev build-essential strace \
     gdbserver libelf-dev pax-utils python3-pkg-resources \
     linux-headers-$(uname -r)
 
